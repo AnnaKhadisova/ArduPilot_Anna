@@ -76,7 +76,7 @@ int main(int argc, char **argv)
 
 
 	set_destination(0,0,2,0);
-	//specify control loop rate. We recommend a low frequency to not over load the FCU with messages. Too many messages will cause the drone to be sluggish
+	//specify control loop rate
 	ros::Rate rate(2.0);
 	int counter = 0;
 	while(ros::ok())
