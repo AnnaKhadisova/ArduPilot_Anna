@@ -57,7 +57,7 @@ int main(int argc, char** argv)
 	waypointList.push_back(nextWayPoint);
 
 
-	//specify control loop rate. We recommend a low frequency to not over load the FCU with messages. Too many messages will cause the drone to be sluggish
+	//specify control loop rate
 	ros::Rate rate(2.0);
 	int counter = 0;
 	while(ros::ok())
